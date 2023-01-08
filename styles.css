@@ -1,3 +1,14 @@
+.container {
+    margin: -10px -10px 0 -10px;
+    border: 1px solid black;
+    display: flex;  
+    gap: 50px;
+    padding: 20px;
+    font-size: 32px;
+    color: #141f1f;
+
+}
+
 img {
     float:right;
     max-width: 140px;
@@ -29,13 +40,8 @@ img {
     font-weight: bold;
     border-top: 1px solid black;
     box-shadow: 1px 1px 250px gray;
-
   }
-
-  footer p{
-    
-  }
-
+  
   html, body {
     margin-bottom: 150px;
     background-color: #83afaf;
