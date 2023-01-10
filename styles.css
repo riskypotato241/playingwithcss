@@ -1,13 +1,15 @@
 .container {
     margin: -10px -10px 0 -10px;
     border: 1px solid black;
-    display: flex;  
-    gap: 50px;
-    padding: 20px;
+    display: flex;
     font-size: 32px;
+    padding: 20px 2px;
     color: #141f1f;
-
+    justify-content: space-around;
+    align-items: center;
 }
+
+
 
 img {
     float:right;
@@ -17,7 +19,11 @@ img {
 }
 
 .main {
-    margin: 40px auto;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    text-align: center;
     max-width: 700px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -46,13 +52,12 @@ img {
     margin-bottom: 150px;
     background-color: #83afaf;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+
     
   }
 
   h1,h2,h3, h4 {
-    font-weight: bold;;
+    font-weight: bold;
   }
 
   h1 {
@@ -62,3 +67,8 @@ img {
   h3 {
     font-size: 32px;
   }
+
+  hr {
+    border-top: 3px solid #bbb;
+  }
+  
